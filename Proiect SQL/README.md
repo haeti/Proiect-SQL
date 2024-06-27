@@ -37,8 +37,9 @@ Coloana “gen”, pacientul cu id-ul nr.7:</li></p>
 <p><li>Am cerut sistemului sa imi arate medicii care au ca specializare “cardiologie” sau “ortopedie”:</li></p>
 <p><img width="468" alt="Picture17" src="https://github.com/haeti/Proiect-SQL/assets/133394777/7ff1e72f-e184-4123-9b1b-ff7fad17a082"></p>
 <p><li>Functii agregate: am cerut sistemului sa imi arate nr total de pacienti:</li></p>
-
+<p><img width="371" alt="1" src="https://github.com/haeti/Proiect-SQL/assets/133394777/652c67f3-b8dd-4d82-a2e5-979cbe1f1ac8"></p>
 <p><li>Filtrare pe functii agregate: am cerut sistemului sa imi arate nr de medici per specializare:</li></p>
+<p><img width="515" alt="2" src="https://github.com/haeti/Proiect-SQL/assets/133394777/29fb90bc-1b24-429c-b27e-91291a4f27a4"></p>
 
 <h4>JOINS</h4>
 
