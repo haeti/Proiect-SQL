@@ -1,5 +1,54 @@
 # Proiect-Practic-Bază de Date
 
+<p>Pentru realizarea părții practice am ales crearea unei baze de date în MySQL. Pentru acest lucru a fost nevoie să instalez MySQL Workbench și MySQL Server. Deși în cazul meu nu a fost nevoie, în unele situații, o precondiție de instalare este existența Visual Studio C++ pe localul unde se dorește a se instala MySQL.</p>
+    <h2>Instalare</h2>
+    <p>Am folosit linkurile de mai jos pentru instalare:</p>
+    <ul>
+        <li><a href="https://visualstudio.microsoft.com/downloads/">Visual Studio</a></li>
+        <li><a href="https://dev.mysql.com/downloads/workbench/">MySQL Workbench</a></li>
+        <li><a href="https://download.cnet.com/MySQL-Database-Server/3000-10254_4-10585640.html">MySQL Database Server</a></li>
+    </ul>
+    <h2>Despre MySQL Workbench și MySQL Server</h2>
+    <p>MySQL Workbench este o aplicație client dezvoltată de MySQL. Aceasta oferă o interfață grafică pentru gestionarea și administrarea bazelor de date MySQL (o aplicație client care permite utilizatorilor să interacționeze cu baza de date MySQL într-un mod mai ușor și mai vizual).</p>
+    <p>MySQL Server reprezintă nucleul bazei de date MySQL. Este programul principal care gestionează stocarea și accesul la datele din baza de date (o componentă server care rulează baza de date).</p>
+      <h2>Pași de Instalare</h2>
+    
+<p>Instalarea MySQL Workbench</p>
+    <ol>
+        <li>Descărcați MySQL Workbench aferent sistemului de operare utilizat, fără a fi nevoie să vă creați cont.</li>
+        <li>Urmați pașii de instalare și debifați opțiunea “Launch Mysql Workbench now”, apoi click pe Finish.</li>
+    </ol>
+    
+<p>Instalarea MySQL Server</p>
+    <ol>
+        <li>Click pe Downloads din meniul din partea de jos, și apoi pe MySQL Community (GPL) Downloads »;</li>
+        <li>Am selectat din lista de downloads MySQL Community Server.</li>
+        <li>Click pe imaginea pe care scrie MySQL Installer.</li>
+        <li>Click pe primul link de download care apare.</li>
+        <li>In fereastra care se deschide click pe “No thanks, just start my download”.</li>
+    </ol>
+    <p>După finalizarea descărcării aplicației, am deschis-o pentru a începe instalarea:</p>
+    <ul>
+        <li>Am selectat NO în popup-ul care întreaba de updates;</li>
+        <li>În fereastra care se deschide:
+            <ul>
+                <li>Click pe plus-ul de lângă MySQL Servers, apoi pe cel de lângă MySQL Server, apoi pe cel de lângă opțiunea MySQL 8.0;</li>
+                <li>Click pe ultima versiune disponibilă, apoi click pe săgețica verde;</li>
+                <li>Click pe Next, apoi pe Execute, după care Next de cinci ori consecutiv;</li>
+                <li>În fereastra care se deschide am definit o parolă și am apăsat Next, apoi Execute; La final click pe Next și apoi pe Finish.</li>
+            </ul>
+        </li>
+    </ul>
+    <h3>Începerea Proiectului în MySQL</h3>
+    <p>Pentru începerea proiectului în MySQL am deschis MySQL Workbench-ul și m-am conectat la Serverul MySQL.</p>
+    
+
+
+    
+  
+
+    
+
 <p>Cu ajutorul instrucțiunilor DDL și DML am creat și inserat datele în baza de date ”Spital”, cu trei tabele denumite <em>Pacienți</em> (care conține datele personale ale pacienților), <em>Medici</em> (conține informații despre medicii curanți ai pacienților) și <em>Internări</em> (în care apar informații despre spitalizarea pacienților).</p>
 <p></p><img width="155" alt="Picture2" src="https://github.com/haeti/Proiect-SQL/assets/133394777/8de8724a-2bec-4786-9c1b-7014e8c5ce1f"></p>
 
